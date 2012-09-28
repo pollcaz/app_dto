@@ -1,0 +1,19 @@
+<tr id=<%= "customer_#{customer.id}" %>>
+    <td><%= link_to customer.id, customer_path(customer), :remote => true %></td>
+    <td><%= customer.code %></td>
+    <td><%= customer.sector %></td>
+    <td><%= customer.owner %></td>
+    <td><%= customer.phone %></td>
+    <td><%= customer.mobil %></td>
+    <td><%= customer.state %></td>
+    <td>
+      <%= link_to 'Editar',
+                  edit_customer_path(customer), :class => 'btn btn-mini', :remote => true %>
+      <%= link_to 'Eliminar',
+                  customer_path(customer),
+                  :method => :delete,
+                  :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
+                  :class => 'btn btn-mini btn-danger',
+                  :remote => true %>
+    </td>   
+</tr>

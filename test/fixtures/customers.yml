@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  code: MyString
+  sector: MyString
+  adress: MyString
+  value: 1.5
+  floor: MyString
+  key: MyString
+  owner: MyString
+  phone: MyString
+  mobil: MyString
+  state: MyString
+
+two:
+  code: MyString
+  sector: MyString
+  adress: MyString
+  value: 1.5
+  floor: MyString
+  key: MyString
+  owner: MyString
+  phone: MyString
+  mobil: MyString
+  state: MyString

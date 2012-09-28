@@ -1,0 +1,34 @@
+<div class='customer'>
+
+	<div class="page-header">
+	  <h1>Cliente</h1>
+	</div>
+
+	<dl class="dl-horizontal">
+	  <dt><strong>Código:</strong></dt>
+	  <dd><%= @customer.code %></dd>
+	  <dt><strong>Sector:</strong></dt>
+	  <dd><%= @customer.sector %></dd>
+	  <dt><strong>Dirección:</strong></dt>
+	  <dd><%= @customer.adress %></dd>
+	  <dt><strong>Valor:</strong></dt>
+	  <dd><%= @customer.value %></dd>
+	  <dt><strong>Piso:</strong></dt>
+	  <dd><%= @customer.floor %></dd>
+	  <dt><strong>Llave:</strong></dt>
+	  <dd><%= @customer.key %></dd>
+	  <dt><strong>Propietario:</strong></dt>
+	  <dd><%= @customer.owner %></dd>
+	  <dt><strong>Telefono:</strong></dt>
+	  <dd><%= @customer.phone %></dd>
+	  <dt><strong>Celular:</strong></dt>
+	  <dd><%= @customer.mobil %></dd>
+	  <dt><strong>Estado:</strong></dt>
+	  <dd><%= @customer.state %></dd>
+	</dl>
+
+	<div class="form-actions">
+	   <button class="btn btn-mini pull-right" onclick="$.lazybox.close()">Cerrar</button>
+	</div>
+
+</div>
